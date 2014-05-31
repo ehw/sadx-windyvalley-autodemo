@@ -18,7 +18,7 @@ Files:
       stdafx.h          - include file for standard system include files
       targetver.h       - includes SDKDDKVer.h which defines the highest available Windows platform
       
-Resources:
+Resources (IDA Pro 5.5 needed to open databases):
       1ST_READ.7z       - partial disassembly of the 1ST_READ (main executable) from the Auto Demo
       STG02.7z          - partial disassembly of STG02.bin (the stage binary for Windy Valley) from the Auto Demo
       SET0200S.BIN      - object placement set file for Act 1 (Sonic)
