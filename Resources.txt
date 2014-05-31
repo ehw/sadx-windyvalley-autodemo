@@ -1,0 +1,21 @@
+=========================
+
+Files:
+      main.cpp          - contains main routine that will replace data
+      windy00cpp.h      - contains landtable and deathzone data for Windy Valley Act 1 (generated from SADXLVL2)
+      windy02cpp.h      - contains landtable and deathzone data for Windy Valley Act 3 (generated from SADXLVL2)
+      ninja.h           - Ninja Library header file
+      SADXModLoader.h   - header file for integrating with MainMemory's SADX Mod Loader
+      stdafx.h          - include file for standard system include files
+      targetver.h       - includes SDKDDKVer.h which defines the highest available Windows platform
+      
+Resources (IDA Pro 5.5 needed to open databases):
+      1ST_READ.7z       - partial disassembly of the 1ST_READ (main executable) from the Auto Demo
+      STG02.7z          - partial disassembly of STG02.bin (the stage binary for Windy Valley) from the Auto Demo
+      SET0200S.BIN      - object placement set file for Act 1 (Sonic)
+      SET0201S.BIN      - object placement set file for Act 2 (Sonic)
+      SET0202S.BIN      - object placement set file for Act 3 (Sonic)
+      CAM0200S.BIN      - camera data for Act 1 (Sonic)
+      CAM0201S.BIN      - camera data for Act 2 (Sonic, has nothing)
+      CAM0202S.BIN      - camera data for Act 3 (Sonic, has nothing)
+    
