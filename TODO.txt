@@ -1,0 +1,15 @@
+=========================
+
+TODO:
+1.) Apply textures to landtable mesh (custom PVM? will require another export since we need to separate materials from objects and vertex colors)
+2.) Find and port path data for stage from Auto Demo files
+3.) Find and port original death zone and skybox data from Auto Demo files
+4.) Rip all the (usable) data from STG02.bin/1ST_READ.bin (stage object models, possibly different common object models, animations, etc)
+5.) Port over and replace object list from STG02
+6.) Port over "static" objects (simple or no animation, little to no branching in loading subroutines), foiliage, building structures, etc
+7.) Attempt at porting over all other objects from STG02 (with logic that match or mimmick the original based on the disassembly)
+8.) Apply textures to ported objects (texture names for WINDY_OBJ.pvm are referenced in STG02.bin along with what object uses said textures).
+9.) Reconstruct Windy Valley Act 2 landtable with available remaining data (see wiki to understand what we have)
+??.) Port other AutoDemo levels (new project)?
+
+==========================
